@@ -2,6 +2,9 @@ package com.sap.hotel.model;
 
 import java.util.ArrayList;
 
+/*
+ * Class to create the model Object for holding details about Hotel
+ */
 public class Hotel {
 	
 	private  int size;

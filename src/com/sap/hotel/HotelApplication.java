@@ -2,12 +2,20 @@ package com.sap.hotel;
 
 import java.util.Scanner;
 
+/*main class to start the Application and set
+ *  up all the things need for the Application to function
+ */
+
 import com.sap.hotel.model.Hotel;
 import com.sap.hotel.services.BookingService;
 
 public class HotelApplication {
 	
 	private static Hotel myHotel;
+	
+	/*The main method welcomes the user with a welcome message and 
+	 * shows the user with the required menu
+	 */
 
 	public static void main(String[] args) {
 		BookingService bookingService = new BookingService();

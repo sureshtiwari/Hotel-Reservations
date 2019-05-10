@@ -1,5 +1,9 @@
 package com.sap.hotel.model;
 
+/*
+ * Class to create the model Object for holding details about  booking
+ */
+
 public class Booking {
 	
 	private int startDate;

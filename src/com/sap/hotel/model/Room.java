@@ -2,6 +2,10 @@ package com.sap.hotel.model;
 
 import java.util.ArrayList;
 
+/*
+ * Class to create the model Object for holding details about Room
+ */
+
 public class Room {
 	
 	private int roomNumber;
