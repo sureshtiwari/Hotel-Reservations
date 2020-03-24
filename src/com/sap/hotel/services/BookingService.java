@@ -92,6 +92,8 @@ public class BookingService {
 		}
 		else
 			System.out.println("invalid Booking");
+		
+		sc.close();
 	}
 	
 	/*The method creates a copy of the array list containing all the 
